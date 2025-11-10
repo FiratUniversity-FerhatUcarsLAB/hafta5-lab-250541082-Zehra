@@ -1,7 +1,7 @@
 /*
- * Ad Soyad: [ADINIZI BURAYA YAZIN]
- * Ogrenci No: [OGRENCI NUMARANIZI BURAYA YAZIN]
- * Tarih: [TARIHI BURAYA YAZIN]
+ * Ad Soyad: Zehra ÖZDEMİR
+ * Ogrenci No:250541082
+ * Tarih:10.11.2025
  * Aciklama: Gorev 1 - Geometrik Sekil Hesaplayici
  * 
  * Bu program temel geometrik sekillerin alan ve
@@ -10,34 +10,34 @@
 
 import java.util.Scanner;
 
-public class GeometriHesap {
+public class GeometrikSekilHesaplayıcı {
     
     // METOT 1: Kare alani
     public static double calculateSquareArea(double side) {
         // Alan = kenar * kenar
         
-        return 0.0; // Degistirin
+        return side*side;
     }
     
     // METOT 2: Kare cevresi
     public static double calculateSquarePerimeter(double side) {
         // Cevre = 4 * kenar
         
-        return 0.0; // Degistirin
+        return 4 * side;
     }
     
     // METOT 3: Dikdortgen alani
     public static double calculateRectangleArea(double width, double height) {
         // Alan = genislik * yukseklik
         
-        return 0.0; // Degistirin
+        return 2 *(width + heighet);
     }
     
     // METOT 4: Dikdortgen cevresi
     public static double calculateRectanglePerimeter(double width, double height) {
         // Cevre = 2 * (genislik + yukseklik)
         
-        return 0.0; // Degistirin
+        return 2 * (width + height);
     }
     
     // METOT 5: Daire alani
@@ -45,28 +45,28 @@ public class GeometriHesap {
         // Alan = PI * r * r
         // Math.PI kullanabilirsiniz
         
-        return 0.0; // Degistirin
+        return Math.PI * Math.pow(radius , 2);
     }
     
     // METOT 6: Daire cevresi
     public static double calculateCircleCircumference(double radius) {
         // Cevre = 2 * PI * r
         
-        return 0.0; // Degistirin
+        return Math.PI*2* radius;
     }
     
     // METOT 7: Ucgen alani (taban ve yukseklik ile)
     public static double calculateTriangleArea(double base, double height) {
         // Alan = (taban * yukseklik) / 2
         
-        return 0.0; // Degistirin
+        return (base * height)/2;
     }
     
     // METOT 8: Ucgen cevresi
     public static double calculateTrianglePerimeter(double a, double b, double c) {
         // Cevre = a + b + c
         
-        return 0.0; // Degistirin
+        return sideA + sideB + sideC;
     }
     
     public static void main(String[] args) {
